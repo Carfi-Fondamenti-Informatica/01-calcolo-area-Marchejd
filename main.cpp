@@ -4,25 +4,25 @@ using namespace std;
 
 int main(){
 
-    float a=0, b=0, c=0, triangolo=0, quadrato=0, rettangolo=0, trapezio=0;
+    float a=0, b=0, c=0;
 
     cin >> a >> b >> c;
 
 
-    triangolo=a*b/2;
-    cout<<triangolo<<endl;
+    
+    cout<<(a*b)/2<<endl;
   
     
-    quadrato=a*a;
-    cout<<quadrato<<endl;
+   
+    cout<<(a*a)<<endl;
   
     
-    rettangolo=a*b;
-    cout<<rettangolo<<endl;
-    S=0;
+   
+    cout<<(b*a)<<endl;
     
-    S=(a+b)*c/2;
-    cout<<trapezio<<endl;
+    
+   
+    cout<<(a+b)*c/2<<endl;
     
     return 0;
 }
