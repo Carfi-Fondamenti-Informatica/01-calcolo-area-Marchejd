@@ -1,28 +1,28 @@
-<iostream>
+#include <iostream>
 
 using namespace std;
 
-intmain(){
+int main(){
 
-    floata=0, b=0, c=0, S=0;
+    float a=0, b=0, c=0, triangolo=0, quadrato=0, rettangolo=0, trapezio=0;
 
     cin >> a >> b >> c;
 
 
-    S=a*b/2;
-    cout<< "l'area del triangolo è : " <<S<<endl;
-    S=0;
+    triangolo=a*b/2;
+    cout<<triangolo<<endl;
+  
     
-    S=a*a;
-    cout<< "l'area del quadrato è : " <<S<<endl;
-    S=0;
+    quadrato=a*a;
+    cout<<quadrato<<endl;
+  
     
-    S=a*b;
-    cout<< "l'area del rettangolo è : " <<S<<endl;
+    rettangolo=a*b;
+    cout<<rettangolo<<endl;
     S=0;
     
     S=(a+b)*c/2;
-    cout<< "l'area del trapezio è : " <<S<<endl;
+    cout<<trapezio<<endl;
     
     return 0;
 }
